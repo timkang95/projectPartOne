@@ -1,0 +1,13 @@
+#success{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  text-align: center;
+  padding-left: 40%;
+  visibility: hidden;
+}
+
+.scamForm{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  text-align: center;
+  margin: 200px;
+  background-color: yellow;
+}
