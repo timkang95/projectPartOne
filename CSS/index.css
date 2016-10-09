@@ -1,3 +1,7 @@
+body, html{
+  font-family: "Calibri";
+}
+
 #success{
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   text-align: center;
@@ -5,9 +9,44 @@
   visibility: hidden;
 }
 
-.scamForm{
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+.navBar{
+  background-color: steelblue;
+  color: white;
+}
+
+nav ul{
+  display: inline-block;
   text-align: center;
-  margin: 200px;
-  background-color: yellow;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.nameTag{
+  padding-left: 10%;
+  padding-right: 30%;
+  font-size: 50;
+}
+
+.contentBackground{
+  background-color: gray;
+}
+
+.homeCard{
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.workExp{
+  background-color: orange;
+  padding-left: 20%;
 }
