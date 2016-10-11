@@ -49,16 +49,19 @@ a{
 .workExp{
   background-color: orange;
   padding-left: 20%;
-  margin-top: -1940px;
+  margin-top: -1960px;
   visibility: hidden;
 }
 
 .contactInfo{
   background-color: purple;
   color: white;
-  padding-left: 20%;
-  margin-top: -750px;
+  margin-top: -710px;
   visibility: hidden;
+}
+
+.contacts{
+  padding-left: 20%;
 }
 
 .pageTitle{
