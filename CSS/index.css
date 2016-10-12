@@ -2,6 +2,17 @@ body, html{
   font-family: "Calibri";
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 40%;
+  height: 400px;
+  margin: auto;
+}
+
+#content{
+  display: none;
+}
+
 #success{
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   text-align: center;
@@ -38,6 +49,7 @@ a{
 
 .contentBackground{
   background-color: gray;
+  margin-top: -20px;
 }
 
 .homeCard{
@@ -48,15 +60,18 @@ a{
 
 .workExp{
   background-color: orange;
-  padding-left: 20%;
-  margin-top: -1960px;
+  margin-top: -1780px;
   visibility: hidden;
+}
+
+.pageContent{
+   padding-left: 20%
 }
 
 .contactInfo{
   background-color: purple;
   color: white;
-  margin-top: -710px;
+  margin-top: -680px;
   visibility: hidden;
 }
 
@@ -70,7 +85,7 @@ a{
 
 .footer{
   background-color: steelblue;
-  margin-top: 1800px;
+  margin-top: 1400px;
   padding: 50px;
   text-align: center;
   color: white;
