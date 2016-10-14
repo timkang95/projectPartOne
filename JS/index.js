@@ -6,7 +6,7 @@ function home() {
   document.getElementById("homeCard").style.visibility = "visible";
   document.getElementById("workExp").style.visibility = "hidden";
   document.getElementById("contactInfo").style.visibility = "hidden";
-  document.getElementById("pageFooter").style.marginTop = "1775px";
+  document.getElementById("pageFooter").style.marginTop = "1650px";
   document.getElementById("navBar").style.backgroundColor = "steelblue";
   document.getElementById("pageFooter").style.backgroundColor = "steelblue";
   return false;
